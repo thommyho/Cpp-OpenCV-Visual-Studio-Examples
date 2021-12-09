@@ -23,16 +23,17 @@ int main()
     auto pathFileTestImage = pathModule.parent_path() / "starry_night.jpg";
 
     // Read an image 
-    cv::Mat img = cv::imread(pathFileTestImage.generic_string());
-    if (img.empty())
+    cv::Mat image = cv::imread(pathFileTestImage.generic_string());
+    if (image.empty())
     {
         // Reading image failed. Bail out.
         // Exit program with failure status.
+        std::cerr << "No image couldn't be loaded from " << pathFileTestImage << std::endl;
         return 1;
     }
 
     // Display the image.
-    cv::imshow("Dear Vincent Willem van Gogh, what a beautiful image...", img);
+    cv::imshow("Dear Vincent Willem van Gogh, what a beautiful image...", image);
 
     // Wait for a keystroke.   
     cv::waitKey(0);

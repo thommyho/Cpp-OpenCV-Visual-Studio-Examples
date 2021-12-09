@@ -5,7 +5,9 @@
 #include<iostream>
 
 int main()
-{    
+{   
+    // Print version and exit gracefully.
+
     std::cout << "OpenCV version : " << CV_VERSION << std::endl;
     std::cout << "Major version : " << CV_MAJOR_VERSION << std::endl;
     std::cout << "Minor version : " << CV_MINOR_VERSION << std::endl;
