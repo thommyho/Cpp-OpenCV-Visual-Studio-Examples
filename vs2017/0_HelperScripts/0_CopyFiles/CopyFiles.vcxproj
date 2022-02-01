@@ -143,7 +143,14 @@
     </Link>
     <PreBuildEvent>
       <Command>mkdir $(OutDir)
-        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg</Command>
+        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg
+        mkdir $(OutDir)\TrafficSignDetection
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.data $(OutDir)TrafficSignDetection\gstdb.data
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.names $(OutDir)TrafficSignDetection\gstdb.names
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\opencvMunichdrive.mp4 $(OutDir)TrafficSignDetection\opencvMunichdrive.mp4
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3.cfg $(OutDir)TrafficSignDetection\yolov3.cfg
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3_best.weights $(OutDir)TrafficSignDetection\yolov3_best.weights
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
@@ -159,7 +166,14 @@
     </Link>
     <PreBuildEvent>
       <Command>mkdir $(OutDir)
-        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg</Command>
+        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg
+        mkdir $(OutDir)\TrafficSignDetection
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.data $(OutDir)TrafficSignDetection\gstdb.data
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.names $(OutDir)TrafficSignDetection\gstdb.names
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\opencvMunichdrive.mp4 $(OutDir)TrafficSignDetection\opencvMunichdrive.mp4
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3.cfg $(OutDir)TrafficSignDetection\yolov3.cfg
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3_best.weights $(OutDir)TrafficSignDetection\yolov3_best.weights
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -179,7 +193,14 @@
     </Link>
     <PreBuildEvent>
       <Command>mkdir $(OutDir)
-        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg</Command>
+        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg
+        mkdir $(OutDir)\TrafficSignDetection
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.data $(OutDir)TrafficSignDetection\gstdb.data
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.names $(OutDir)TrafficSignDetection\gstdb.names
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\opencvMunichdrive.mp4 $(OutDir)TrafficSignDetection\opencvMunichdrive.mp4
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3.cfg $(OutDir)TrafficSignDetection\yolov3.cfg
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3_best.weights $(OutDir)TrafficSignDetection\yolov3_best.weights
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -195,7 +216,14 @@
     </Link>
     <PreBuildEvent>
       <Command>mkdir $(OutDir)
-        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg</Command>
+        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg
+        mkdir $(OutDir)\TrafficSignDetection
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.data $(OutDir)TrafficSignDetection\gstdb.data
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.names $(OutDir)TrafficSignDetection\gstdb.names
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\opencvMunichdrive.mp4 $(OutDir)TrafficSignDetection\opencvMunichdrive.mp4
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3.cfg $(OutDir)TrafficSignDetection\yolov3.cfg
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3_best.weights $(OutDir)TrafficSignDetection\yolov3_best.weights
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
@@ -211,7 +239,14 @@
     </Link>
     <PreBuildEvent>
       <Command>mkdir $(OutDir)
-        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg</Command>
+        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg
+        mkdir $(OutDir)\TrafficSignDetection
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.data $(OutDir)TrafficSignDetection\gstdb.data
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.names $(OutDir)TrafficSignDetection\gstdb.names
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\opencvMunichdrive.mp4 $(OutDir)TrafficSignDetection\opencvMunichdrive.mp4
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3.cfg $(OutDir)TrafficSignDetection\yolov3.cfg
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3_best.weights $(OutDir)TrafficSignDetection\yolov3_best.weights
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -231,7 +266,14 @@
     </Link>
     <PreBuildEvent>
       <Command>mkdir $(OutDir)
-        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg</Command>
+        copy /b/v/y $(SolutionDir)res\starry_night.jpg $(OutDir)starry_night.jpg
+        mkdir $(OutDir)\TrafficSignDetection
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.data $(OutDir)TrafficSignDetection\gstdb.data
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\gstdb.names $(OutDir)TrafficSignDetection\gstdb.names
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\opencvMunichdrive.mp4 $(OutDir)TrafficSignDetection\opencvMunichdrive.mp4
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3.cfg $(OutDir)TrafficSignDetection\yolov3.cfg
+        copy /b/v/y $(SolutionDir)..\res\TrafficSignDetection\yolov3_best.weights $(OutDir)TrafficSignDetection\yolov3_best.weights
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
 

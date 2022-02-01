@@ -27,6 +27,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Image_Webcam_Read_and_Displ
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Image_Webcam_Canny_Detection", "4_Image_Webcam_Canny_Detection\Image_Webcam_Canny_Detection.vcxproj", "{DF579978-4062-45B5-A3AB-6FFEE5E62126}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Video", "Video", "{9FC1AC8C-080D-439F-BE5C-FE3B188F5BF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Image_Traffic_Sign_Detection", "5_Image_Traffic_Sign_Detection\Image_Traffic_Sign_Detection.vcxproj", "{326B5E44-1FC3-41DF-9E18-4419881B8A5C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{26074903-8985-4B20-A80B-02F82C8D01C1} = {26074903-8985-4B20-A80B-02F82C8D01C1}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -97,6 +104,18 @@ Global
 		{DF579978-4062-45B5-A3AB-6FFEE5E62126}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
 		{DF579978-4062-45B5-A3AB-6FFEE5E62126}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|Win32
 		{DF579978-4062-45B5-A3AB-6FFEE5E62126}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|Win32
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.Debug|x64.ActiveCfg = Debug|x64
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.Debug|x64.Build.0 = Debug|x64
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.Debug|x86.ActiveCfg = Debug|Win32
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.Debug|x86.Build.0 = Debug|Win32
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.Release|x64.ActiveCfg = Release|x64
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.Release|x64.Build.0 = Release|x64
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.Release|x86.ActiveCfg = Release|Win32
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.Release|x86.Build.0 = Release|Win32
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.RelWithDebInfo|x86.ActiveCfg = RelWithDebInfo|Win32
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C}.RelWithDebInfo|x86.Build.0 = RelWithDebInfo|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +127,8 @@ Global
 		{088289B6-9115-435D-A725-A379A8BA1170} = {6B67BAFD-726B-49EF-A032-323091A08F64}
 		{54C1FE0A-D137-4A3C-9226-F2AC04EEE4A1} = {088289B6-9115-435D-A725-A379A8BA1170}
 		{DF579978-4062-45B5-A3AB-6FFEE5E62126} = {088289B6-9115-435D-A725-A379A8BA1170}
+		{9FC1AC8C-080D-439F-BE5C-FE3B188F5BF6} = {6B67BAFD-726B-49EF-A032-323091A08F64}
+		{326B5E44-1FC3-41DF-9E18-4419881B8A5C} = {9FC1AC8C-080D-439F-BE5C-FE3B188F5BF6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {813C7F37-2ECA-4960-93BF-BA454DDDA881}
