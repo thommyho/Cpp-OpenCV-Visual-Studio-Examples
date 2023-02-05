@@ -1,3 +1,8 @@
+MSVC143_64/
+MSVC143_32/
+MSVC142_64/
+MSVC142_32/
+*.zip
 # Prerequisites
 *.d
 
